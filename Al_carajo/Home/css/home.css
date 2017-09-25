@@ -1,27 +1,46 @@
-
+*{
+	box-sizing: border-box;
+}
 
 .banner{
 	background-image: url(../img/fondo-banner.png);
 	height: 492px;
-	
+	display flex: 
+	}
 
+.cuenta{
 
-.texto {
-	font-size: 30px;
+padding-top: 20px;
+
 }
 
-.fondo{
-	padding: 0px;
-	margin: 0px;
+.registro{
+	color: #FFFFFF;
+	margin-right:20px; 
+	font-size: 16px;
+
+
+
+}
+.nav{
+	padding-top: 100px;
+}
+
+
+
+.nav a {
+	text-decoration: none;
+	}
+
+
+
+
+
+
 }
 
 .recomendado {
 	background-image: url(../img/fondo.png);
-
-}
-
-.nav a {
-	text-decoration: none;
 
 }
 
@@ -62,7 +81,8 @@ input {
 .search{
 	display: flex;
 	flex-direction: row;
-	justify-content: flex-end;
+	margin: 0px 10px;
+	
 }
 
 button {
