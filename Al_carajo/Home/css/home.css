@@ -28,15 +28,130 @@
 
 .nav a {
 	text-decoration: none;
-	}
-
-.recomendado {
-	background-image: url(../img/fondo.png);
 }
+.principal {
+	height:700px;
+	background-image: url(../img/fondo.png);
+	display: flex;
+}
+
+.izquierda{
+	width: 50%;
+	height: 700px;
+	display:flex;
+	justify-content:flex-center;
+	margin-right: -110px;
+	margin-left: 50px;
+}
+.recomendado{
+	margin-top: 50px;
+	justify-content:flex-center;
+}
+.recomendado img{
+	margin-left: 70px;
+}
+
+figcaption {
+	display:flex;
+}
+.pie{
+color:#FFFFFF;
+display: inline-block;
+margin-top: 13px;
+margin-left: 71px;
+}
+.pieA{
+	display: inline-block;
+}
+
+.pie2{
+color:#FFFFFF;
+display: inline-block;
+font-size: 25px;
+margin-top: -50px;
+margin-left: 71px;
+}
+
+.cantidad{
+	margin-top: 5px;
+	margin-left: 290px;
+	margin-bottom: 5px;
+}
+
+
+.boton{
+	background-color:#04A1A5;
+	border: 0px; 
+	color: #FFFFFF;
+	margin-left: 285px;
+}
+.derecha{
+	width:50%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-right: -110px;
+}
+.discosgeneral{
+	height: 50%;
+	width:50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.izq{
+	margin-right:-10px;
+	margin-top: 3px;
+	margin-bottom: -20px;
+}
+.der{
+	margin-top: 3px;
+}
+.disco1{
+	margin-bottom: -1px;
+}
+.disco3{
+	margin-top: -95px;
+}
+.disco4{
+	margin-top: -95px;
+}
+
+}
+.piethumbnail{
+	display:flex;
+	flex-wrap: wrap;
+	margin-bottom:-40px;
+}
+.pieAthumbnail{
+	color: #FFFFFF;
+	display: inline-block;
+	margin-left: 88px;
+}
+.cantidadthumbnail{
+	margin-left: 84px;
+}
+.pie2thumbnail{
+	color: #FFFFFF;
+	font-size: 25px;
+	margin-left: 88px;
+	display:inline-block;
+}
+.botonthumbnail{
+	background-color:#04A1A5;
+	border: 0px; 
+	color: #FFFFFF;
+	margin-left: 70px;
+}
+
+
+
 
 aside{
 	background-color: #002245;
-	height: 355px;
+	height: 385px;
 
 }
 
@@ -54,20 +169,22 @@ aside{
 figcaption {
 	display: flex;}	
 
-.pie{
+.pieslider{
 color:#FFFFFF;
 display: inline-block;
 margin-top: 13px;
+margin-left: 2px;
 }
 
-.pie2{color:#FFFFFF;
+.pie2slider{color:#FFFFFF;
 display: inline-block;
 font-size: 25px;
+margin-left: 2px;
 }
 
-.cantidad{
+.cantidadslider{
 	margin-top: 5px;
-	margin-left: 47px;
+	margin-left: 88px;
 	margin-bottom: 5px;
 }
 
@@ -76,7 +193,7 @@ font-size: 25px;
 	
 }
 
-.boton{
+.botonslider{
 	background-color:#04A1A5;
 	border: 0px; 
 	color: #FFFFFF;
@@ -112,4 +229,26 @@ input {
 
 button {
 	
+}
+/*******************************FOOTER**************************/
+footer {
+	background: #000000;
+	color: #ffffff;
+	margin-left: 0px;
+	margin-right: 0px;
+	height: 150px;
+	display: flex;
+	justify-content: space-between;
+	justify-content: center;
+}
+
+h4 {
+	padding-top: 50px;
+}
+
+.iconos{
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+	align-items: center;
 }

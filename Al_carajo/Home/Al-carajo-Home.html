@@ -7,11 +7,12 @@
 		<title>Al carajo Home</title>
 		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/home.css">
+		<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 	</head>
 	<body>
 		<div class="container-fluid general">
 			
-			<header>
+			<header class="row">
 				<div class="row banner">
 					
 					<div class="row cuenta">
@@ -70,111 +71,193 @@
 			</div>
 			
 		</header>
-		
-		<section class="row recomendado">
-			<div class="col-md-offset-1 col-md-3">
-				<img src="img/recomendado.jpg" class="img-responsive recomendado.png" alt="">
-			</div>
-			
-			<div class="col-md-3">
-				<img src="img/disco1.jpg" class="img-responsive logo.png" alt="">
-			</div>
-			<div class="col-md-3">
-				<img src="img/disco2.jpg" class="img-responsive logo.png" alt="">
-			</div>
-			
-		</section>
-		
-		<aside class="row">
-			
-			<div class="slider">
-			<article class="col-md-2">
-				
-				<figure>
-					<img src="img/slider1.jpg" alt="Cerezos">
+		<div class="row principal">
+			<div class="izquierda">
+				<div class="recomendado">
+					<figure>
+						<img src="img/recomendado.jpg" alt="Nevermind-Nirvana">
+					</figure>
 					<figcaption class="pie">
 					
-					<div>GRUPO<br>Genero/Estilo</div>
+					<div class="pieA">GRUPO<br>Genero/Estilo</div>
 					</figcaption>
 					
-					<input min="1" max="10" type="number" name="cantidad" class= "cantidad" value="1">
 					
+					
+					<input min="1" max="10" type="number" name="cantidad" class= "cantidad" value="1">
+					<br>
 					<div class="pie2">
 						<p>$200</p></div>
 						
 						<button type="submit" class="btn btn-default boton">
 						<span class="glyphicon glyphicon-shopping-cart"></span>Añadir
 						</button>
-					</figure>
-					
-				</article>
-				
-				<article class="col-md-2">
-					
-					<figure>
-						<img src="img/slider2.jpg" alt="Cerezos">
-						<figcaption class="pie">
-						
-						<div>GRUPO<br>Genero/Estilo</div>
-						</figcaption>
-						
-						<input min="1" max="10" type="number" name="cantidad" class= "cantidad" value="1">
-						
-						<div class="pie2">
-							<p>$200</p></div>
+					</div>
+				</div>
+				<div class=derecha>
+					<div class="discosgeneral izq disco1">
+						<img src="img/disco1.jpg" alt="disco 1" height="200" width="200">
+						<div class="piethumbnail">
 							
-							<button type="submit" class="btn btn-default boton">
-							<span class="glyphicon glyphicon-shopping-cart"></span>Añadir
-							</button>
-						</figure>
-						
-					</article>
-					<article class="col-md-2">
-						
-						<figure>
-							<img src="img/slider3.jpg" alt="Cerezos">
-							<figcaption class="pie">
-							
-							<div>GRUPO<br>Genero/Estilo</div>
-							</figcaption>
-							
-							<input min="1" max="10" type="number" name="cantidad" class= "cantidad" value="1">
-							
-							<div class="pie2">
+							<div class="pieAthumbnail">GRUPO<br>Genero/Estilo</div>
+							<input min="1" max="10" type="number" name="cantidad" class= "cantidadthumbnail" value="1">
+							<div class="pie2thumbnail">
 								<p>$200</p></div>
-								
-								<button type="submit" class="btn btn-default boton">
+								<button type="submit" class="btn btn-default botonthumbnail">
 								<span class="glyphicon glyphicon-shopping-cart"></span>Añadir
 								</button>
-							</figure>
-							
-						</article>
-						<article class="col-md-2">
-							
-							<figure>
-								<img src="img/slider4.jpg" alt="Cerezos">
-								<figcaption class="pie">
+							</div>
+						</div>
+						<div class="discosgeneral der disco2">
+							<img src="img/disco2.jpg" alt="disco 2" height="200" width="200">
+							<div class="piethumbnail">
 								
-								<div>GRUPO<br>Genero/Estilo</div>
-								</figcaption>
-								
-								<input min="1" max="10" type="number" name="cantidad" class= "cantidad" value="1">
-								
-								<div class="pie2">
+								<div class="pieAthumbnail">GRUPO<br>Genero/Estilo</div>
+								<input min="1" max="10" type="number" name="cantidad" class= "cantidadthumbnail" value="1">
+								<div class="pie2thumbnail">
 									<p>$200</p></div>
-									
-									<button type="submit" class="btn btn-default boton">
+									<button type="submit" class="btn btn-default botonthumbnail">
 									<span class="glyphicon glyphicon-shopping-cart"></span>Añadir
 									</button>
-								</figure>
-								
-							</article>
-						
+								</div>
 							</div>
-						</aside>
-						
-						
-						
-					</div>
-				</body>
-			</html>
+							<div class="discosgeneral izq disco3">
+								<img src="img/disco3.jpg" alt="disco 3" height="200" width="200">
+								<div class="piethumbnail">
+									
+									<div class="pieAthumbnail">GRUPO<br>Genero/Estilo</div>
+									<input min="1" max="10" type="number" name="cantidad" class= "cantidadthumbnail" value="1">
+									<div class="pie2thumbnail">
+										<p>$200</p></div>
+										<button type="submit" class="btn btn-default botonthumbnail">
+										<span class="glyphicon glyphicon-shopping-cart"></span>Añadir
+										</button>
+									</div>
+								</div>
+								<div class="discosgeneral der disco4">
+									<img src="img/disco4.jpg" alt="disco 4" height="200" width="200">
+									<div class="piethumbnail">
+										
+										<div class="pieAthumbnail">GRUPO<br>Genero/Estilo</div>
+										<input min="1" max="10" type="number" name="cantidad" class= "cantidadthumbnail" value="1">
+										<div class="pie2thumbnail">
+											<p>$200</p></div>
+											<button type="submit" class="btn btn-default botonthumbnail">
+											<span class="glyphicon glyphicon-shopping-cart"></span>Añadir
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							
+							
+							<aside class="row">
+								
+								<div class="slider">
+									<article class="col-md-2">
+										
+										<figure>
+											<img src="img/slider1.jpg" alt="Cerezos">
+											<figcaption class="pieslider">
+											
+											<div>GRUPO<br>Genero/Estilo</div>
+											</figcaption>
+											
+											<input min="1" max="10" type="number" name="cantidad" class= "cantidadslider" value="1">
+											
+											<div class="pie2slider">
+												<p>$200</p></div>
+												
+												<button type="submit" class="btn btn-default botonslider">
+												<span class="glyphicon glyphicon-shopping-cart"></span>Añadir
+												</button>
+											</figure>
+											
+										</article>
+										
+										<article class="col-md-2">
+											
+											<figure>
+												<img src="img/slider2.jpg" alt="Cerezos">
+												<figcaption class="pieslider">
+												
+												<div>GRUPO<br>Genero/Estilo</div>
+												</figcaption>
+												
+												<input min="1" max="10" type="number" name="cantidad" class= "cantidadslider" value="1">
+												
+												<div class="pie2slider">
+													<p>$200</p></div>
+													
+													<button type="submit" class="btn btn-default botonslider">
+													<span class="glyphicon glyphicon-shopping-cart"></span>Añadir
+													</button>
+												</figure>
+												
+											</article>
+											<article class="col-md-2">
+												
+												<figure>
+													<img src="img/slider3.jpg" alt="Cerezos">
+													<figcaption class="pieslider">
+													
+													<div>GRUPO<br>Genero/Estilo</div>
+													</figcaption>
+													
+													<input min="1" max="10" type="number" name="cantidad" class= "cantidadslider" value="1">
+													
+													<div class="pie2slider">
+														<p>$200</p></div>
+														
+														<button type="submit" class="btn btn-default botonslider">
+														<span class="glyphicon glyphicon-shopping-cart"></span>Añadir
+														</button>
+													</figure>
+													
+												</article>
+												<article class="col-md-2">
+													
+													<figure>
+														<img src="img/slider4.jpg" alt="Cerezos">
+														<figcaption class="pieslider">
+														
+														<div>GRUPO<br>Genero/Estilo</div>
+														</figcaption>
+														
+														<input min="1" max="10" type="number" name="cantidad" class= "cantidadslider" value="1">
+														
+														<div class="pie2slider">
+															<p>$200</p></div>
+															
+															<button type="submit" class="btn btn-default botonslider">
+															<span class="glyphicon glyphicon-shopping-cart"></span>Añadir
+															</button>
+														</figure>
+														
+													</article>
+													
+												</div>
+											</aside>
+											<footer class="row">
+												<div class="col-md-3">
+												</div>
+												
+												<div class="col-md-6" >
+													<h4 class="text-center">Buenos Aires,Argentina.Av Callao 838 Copyright 2017</h4>
+												</div>
+												<div class="iconos col-md-2">
+													<i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+													<i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i>
+													<i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+												</div>
+												<div class="col-md-1">
+												</div>
+												
+											</footer>
+											
+											
+											
+										</div>
+									</body>
+								</html>
