@@ -11,23 +11,15 @@
 	}
 
 .cuenta{
-	display: flex;
-
-    padding-top: 20px;
-
-
+	padding-top: 20px;
 }
 
 .registro{
 	color: #FFFFFF;
-	/*margin-right:20px;*/ 
 	font-size: 16px;
-	align-content: flex-end;
-	text-align: right;
-
-
-
+    text-align: right;
 }
+
 .nav{
 	padding-top: 100px;
 }
@@ -38,50 +30,72 @@
 	text-decoration: none;
 	}
 
-
-
-
-
-
-}
-
 .recomendado {
 	background-image: url(../img/fondo.png);
-
 }
 
 aside{
-	background-color: #11056B;
-	height: 492px;
-	margin: 20px;
+	background-color: #002245;
+	height: 355px;
 
 }
 
-.lateralizq{
-	
+.slider{
+		display: flex;
+	justify-content: center;
+	padding-top: 30px;
 }
 
 
-article { margin: 20px 20px;
-	padding: 10px;
-	
-}
 
 
-figure{
-	margin: 20px;
-}
+
 
 figcaption {
+	display: flex;}	
 
+.pie{
+color:#FFFFFF;
+display: inline-block;
+margin-top: 13px;
 }
 
-form {
+.pie2{color:#FFFFFF;
+display: inline-block;
+font-size: 25px;
+}
+
+.cantidad{
+	margin-top: 5px;
+	margin-left: 47px;
+	margin-bottom: 5px;
+}
+
+
+.precio {color:#FFFFFF;
 	
 }
+
+.boton{
+	background-color:#04A1A5;
+	border: 0px; 
+	color: #FFFFFF;
+	margin-left: 61px;
+}
+
+
+
+
+
+
+
 
 input {
 	
+}
+
+.comprar{
+	margin-left: 45px;
 }
 
 
